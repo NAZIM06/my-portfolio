@@ -1,5 +1,5 @@
 body{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 h1{
@@ -14,14 +14,21 @@ h2{
 .murgi{
     color: red;
 }
+
 .half{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+
 }
+
 .half img{
     width: 700px;
+    
+}
+.half p{
+    margin: 25px 0;
 }
 .half2{
     width: 40%;
@@ -30,16 +37,24 @@ h2{
     padding-left: 2%;
 }
 .half2 img{
-    width: 700px;
+    width: 110%;
     
 }
+.half2 p{
+    margin: 25px 0;
+}
 
-.banner1{
+
+.banner{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
 section{
     height: 500px;
+    padding-bottom: 100px;
+
+    
+    
 }
 .button{
     text-decoration: none;
@@ -47,49 +62,10 @@ section{
     border-radius: 5%;
     background-image: linear-gradient( 45deg, lightsalmon, tomato );
     color: white;
-    font-weight: 700;
+    font-weight: 700;   
 }
-.banner2{
+.dream{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
-}
-
-.single-experience{
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 5px;
-    height: 80%;
-    background-color: white;
-    width: 40%;
-    float: left;
-    margin-left: 90px
-
-    
-}
-.experience-area{
-    background-image: url("images/exp-bg.png");
-    background-repeat: no-repeat;
-    background-position: left;
-}
-.experience-area h2{
-    text-align: center;
-}
-#full-stack{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, lightSalmon, tomato);
-    border-image-slice: 1;
-    padding: 1%;
-}
-#baby-web{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, blue, cyan);
-    border-image-slice: 1;
-    padding: 1%;
-}
-footer{
-    margin: 20px;
-}
-footer p{
-    text-align: center;
-    font-size: 12px;
 }
