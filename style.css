@@ -1,5 +1,5 @@
 body{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 h1{
@@ -14,12 +14,15 @@ h2{
 .murgi{
     color: red;
 }
+
 .half{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+
 }
+
 .half img{
     width: 700px;
     
@@ -34,7 +37,7 @@ h2{
     padding-left: 2%;
 }
 .half2 img{
-    width: 700px;
+    width: 110%;
     
 }
 .half2 p{
@@ -48,6 +51,8 @@ h2{
 }
 section{
     height: 500px;
+    padding-bottom: 100px;
+
     
     
 }
@@ -62,4 +67,5 @@ section{
 .dream{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
+    background-position: right;
 }
